@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital@0;1&family=Open+Sans&family=Poppins:wght@200;700&family=Volkhov:wght@700&display=swap');
+
+
+.CustomerReview{
+    margin-left: 6.5rem;
+    display: flex;
+    margin-bottom: 8rem;
+}
+
+.CustomerReviewHead{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #5E6282;
+    font-size: 1rem;
+}
+
+.CustomerReviewMain1{
+    font-family: 'Volkhov', sans-serif;
+    color: #14183E;
+    font-size: 4rem;
+    margin-top: 1.5rem;
+}
+
+.CustomerReviewMain2{
+    font-family: 'Volkhov', sans-serif;
+    color: #14183E;
+    font-size: 4rem;
+    margin-top: -2.8rem;
+}
+
+.ReviewCardBoxs{
+    margin-left: 20rem;
+    margin-top: 10rem;
+}
+
+.CustomerReviewWithCompany{
+    display: flex;
+    flex-direction: column;
+}
+
+.CompanyImg1{
+    height: 8rem;
+    width: 8rem;
+
+}
+
+.CompanyImg2{
+    height: 6rem;
+    width: 10rem;
+    margin-top: 1rem;
+}
+
+.CompanyImg3{
+    height: 10rem;
+    width: 14rem;
+    margin-top: 1.2rem;
+}
+
+.CompanyImg4{
+    height: 3rem;
+    width: 6rem;
+    margin-top: 2rem;
+}
+
+.CompanyImg5{
+    height: 3rem;
+    width: 6rem;
+    margin-top: 2.3rem;
+}
+
+.Companys{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 8rem;
+    margin-left: 5rem;
+}
+
+@media (max-width: 600px) {
+    .CustomerReview{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-left: 0rem;
+    }
+
+    .ReviewCardBoxs{
+        margin-top: 0rem;
+        margin-left: 0rem;
+        display: flex;
+        justify-content: center;
+        align-content:center ;
+        margin-left: 1rem;
+    }
+
+    .CustomerReviewHeadingMain{
+        text-align: center;
+        margin-left: 0rem;
+    }
+
+    .CustomerReviewMain1{
+        margin-left: 0rem;
+        text-align: center;
+    }
+
+    .Companys{
+        flex-wrap: wrap;
+    }
+
+    .CompanyImg5{
+        display: none;
+    }
+}

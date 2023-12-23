@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital@0;1&family=Open+Sans&family=Poppins:wght@200;700&family=Volkhov:wght@700&display=swap');
+
+.SendMailComponent {
+    height: 20rem;
+    width: 60rem;
+    background: rgb(223, 215, 249, 0.5);
+    border-radius: 5rem 1.5rem 1.5rem 1.5rem;
+    margin-left: 18rem;
+    margin-bottom: 10rem;
+    margin-top: 8rem;
+}
+
+.SendBtn {
+    position: relative;
+    margin-left: 58rem;
+    margin-top: -0.8rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+.SubscribeHeadLine {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #5E6282;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+.EmailInput {
+    margin-left: 18rem;
+}
+
+.SubscribeBtn {
+    width: 11rem;
+    height: 3.45rem;
+    border-radius: 10px;
+    background: var(--gradient, linear-gradient(180deg, #FF946D 0%, #FF7D68 100%));
+    border: none;
+    margin-left: 1.2rem;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.SubscribeBtn:hover{
+    height: 3.5rem;
+    width: 11.2rem;
+    cursor: pointer;
+}
+
+.DesignImgs {
+    position: relative;
+    width: 9.5rem;
+    height: 11rem;
+    transform: rotate(180deg);
+    /* z-index: -1; */
+    margin-left: 54rem;
+}
+
+.DesignDiv{
+    z-index: -2;
+}
+
+@media (max-width:600px) {
+    .SendMailComponent{
+        margin-left: 0rem;
+        width: 28rem;
+        display: flex;
+        flex-direction:column ;
+        justify-content: space-between;
+        border-radius: 1rem;
+    }
+
+    .SubscribeHeadLine{
+        font-size: 1.25rem;
+    }
+
+    .EmailInput{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-left: 0rem;
+        padding: 1.5rem;
+    }
+
+
+    .SubscribeBtn{
+        align-self: center;
+        margin-top: 1.75rem;
+    }
+
+}

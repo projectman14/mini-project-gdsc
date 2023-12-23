@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital@0;1&family=Open+Sans&display=swap');
+.Navbar {
+    display: flex;
+    
+}
+
+body{
+    background-color: #fff;
+}
+
+
+.Components {
+    display: flex;
+    justify-content: center;
+    margin-left: 12rem; 
+    width: 100%; 
+    align-items: center;
+    margin-top: 1.3rem;
+}
+
+.Components p {
+    padding: 0.5rem;
+    font-size: 1.05rem;
+    font-family: 'Andika'; 
+    margin-left: 4rem;
+    font-weight: 700;
+}
+
+.Logo {
+    margin-left: 3rem;
+    margin-top: 2.25rem;
+    padding-left: 3.5rem;
+}
+
+.keyDown{
+    color: #000;
+    transform: translateY(0.35rem);
+}
+
+.Components p:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 600px){
+    .Components{
+        display: none;
+    }
+
+    .Navbar{
+        justify-content: center;
+        align-content: center;
+    }
+
+    .Logo{
+        margin-left: -0.5rem;
+    }
+}

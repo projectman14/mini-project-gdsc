@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.DestinationCard{
+    background-color: #fff;
+    width: 14rem;
+    height: 22rem;
+    border-radius: 1.5rem;
+    box-shadow: 0px 1.85px 3.15px #00000001, 0px 8.15px 6.52px #00000002, 0px 20px 13px #00000003,
+    0px 38.52px 25.48px #00000003, 0px 64.81px 46.85px #00000004, 0px 100px 80px #00000005;
+    margin-left: 5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.DestinationCard:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.Taging{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.CardLine{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 1rem;
+}
+
+.DaysLine{
+    margin-left: 0.40rem;
+    margin-top: 0.05rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    color: #5E6282;
+}
+
+.DestinationImage{
+    height: 16rem;
+    width: 14rem;
+    margin-top: 0.05rem;
+}
+
+.DestinationPlace{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    color: #5E6282;
+}
+
+.DestinationPrice{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    color: #5E6282;
+}
+
+@media (max-width: 600px) {
+    .DestinationCard{
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }    
+}
+

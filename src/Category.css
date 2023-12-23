@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital@0;1&family=Open+Sans&family=Poppins:wght@200;700&family=Volkhov:wght@700&display=swap');
+
+.Category{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.CategoryHeadLine{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #5E6282;
+    font-size: 1.2rem;
+}
+
+.CategoryMainLine{
+    font-family: 'Volkhov', sans-serif;
+    font-weight: bold;
+    font-size: 3.25rem;
+    margin-top: 1rem;
+}
+
+.DisplayCards{
+    display: flex;
+}
+
+.AddDesignTask{
+    z-index: -1;
+    margin-left: 78rem;
+    transform: translateY(-40rem);
+}
+
+@media (max-width: 600px) {
+    .DisplayCards{
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .Category{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: -5rem;
+    }
+}

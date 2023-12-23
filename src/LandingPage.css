@@ -1,0 +1,45 @@
+.Decore{
+    margin-left: 56rem;
+    margin-top: -12rem;
+    z-index: -1;
+    height: 45rem;
+}
+
+.Design{
+    display: flex;
+    flex-direction: column;
+}
+
+.Plane{
+    height: 38rem;
+    margin-top: -33rem;
+    margin-left: 43rem;
+}
+
+.BlurEffect{
+    position: absolute;
+}
+
+@media(min-width: 901px) and (max-width: 1000px) {
+    
+}
+
+@media(min-width:700px) and (max-width: 900px) {
+    .Decore{
+        visibility: hidden;
+    }
+
+    
+}
+
+@media (max-width: 600px) {
+    .Decore,.Plane{
+        display: none;
+    }
+
+    .BlurEffect{
+        top: -21rem;
+        transform: rotate(90deg);
+    }
+    
+}

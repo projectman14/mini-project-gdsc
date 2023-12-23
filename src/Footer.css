@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital@0;1&family=Open+Sans&family=Poppins:wght@200;700&family=Volkhov:wght@700&display=swap');
+
+.Footer{
+    display: flex;
+    margin-bottom: 8rem;
+}
+
+.footerpart1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 6.5rem;
+}
+
+.CompanyName {
+    color: #181E4B;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.75rem;
+    font-weight: 500;
+}
+
+.BelowCompanyName {
+    color: #5E6282;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: -1.75rem;
+}
+
+.footerpart2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-left: 7rem;
+    margin-top: 2.5rem;
+}
+
+.footerCompany{
+    color: #080809;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top: 1.4rem;
+}
+
+.footerpart2div{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.footerpart2opt{
+    color: #5E6282;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 0rem;
+}
+
+.socialHandels{
+    display: flex;
+}
+
+.Socials{
+    height: 5rem;
+    width: 5rem;
+}
+
+.Socials:hover{
+    cursor: pointer;
+}
+
+.Discover{
+    margin-top: 1.8rem;
+}
+
+@media (max-width: 600px){
+    .Footer{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content:space-evenly ;
+        margin-left: 0rem;
+    }
+
+    .footerpart1,.footerpart2{
+        margin-left: 1rem;
+    }
+}
