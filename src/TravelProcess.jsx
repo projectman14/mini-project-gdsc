@@ -1,4 +1,4 @@
-import './Travelprocess.css';
+import "./TravelProcess.css";
 import ChoseDesti from './assets/DestinationChoose.svg';
 import MakePayment from './assets/MakePayment.svg';
 import Transport from './assets/Transport.svg';
