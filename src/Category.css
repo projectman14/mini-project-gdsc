@@ -30,6 +30,8 @@
     transform: translateY(-40rem);
 }
 
+
+
 @media (max-width: 600px) {
     .DisplayCards{
         flex-direction: column;

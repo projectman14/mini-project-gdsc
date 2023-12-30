@@ -7,7 +7,7 @@ import BlurEffect from './assets/BlurEffect.png';
 
 export default function LandingPage() {
     return (
-        <div className='Design'>
+        <div className={`Design`}>
             <img className='BlurEffect' src={BlurEffect}></img>
             <img className='BlurEffect' src={BlurEffect}></img>
             <Navbar />

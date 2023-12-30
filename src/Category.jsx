@@ -5,11 +5,22 @@ import Mice from './assets/Mice.svg';
 import Flight from './assets/Flight.svg';
 import Cards from './Cards';
 import AddDesign from './assets/Designs.svg';
+import { useInView } from 'react-intersection-observer';
 
 export default function Category() {
+    const { ref: myRef1, inView: myElementIsVisible1 } = useInView({ triggerOnce: true,});
+    console.log(myElementIsVisible1);
+
+    const animateStyle = {
+        opacity: myElementIsVisible1 ? 1 : 0,
+        filter: myElementIsVisible1 ? 'blur(0)' : 'blur(5px)',
+        transform: myElementIsVisible1 ? 'translateX(0)' : 'translateX(-100%)',
+        transition: 'all 1s',
+      };
+
     return (
-        <div>
-            <div className='Category'>
+        <div >
+            <div ref={myRef1} className={`Category`} style={animateStyle}>
                 <p className="CategoryHeadLine">CATEGORY</p>
                 <p className="CategoryMainLine">We Offer Best Services</p>
                 <div className='DisplayCards'>
